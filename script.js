@@ -13,6 +13,7 @@ let g = a / b;
 let h = a ** b;
 let z = 2;
 let x = 1;
+let y = 7;
 
 
 console.log("a+b=" , c);
@@ -48,6 +49,63 @@ console.log("a<=x" , a<=x);
 let cond1 = a>b;
 let cond2 = a===b;
 console.log(cond1 && cond2);
+
+let cond3 = a>b;
+let cond4 = a===b;
+console.log(cond3 || cond4);
+
+let cond5 = a===y;
+console.log(!a===y);
+
+let age = 25;
+if(age >= 18);{
+    
+    console.log("You can vote");
+
+}
+
+let Age = 16;
+if(Age >= 18){
+    
+    console.log("You can vote");
+
+} else{
+
+    console.log("You cannot vote");
+
+}
+
+
+
+ let mode = "violet";
+ let color;
+
+ if(mode === "dark"){
+    color = "black";
+ } else if(mode === "light"){
+    color =  "white";
+ } else if(mode === "green"){
+    color = "green";
+ } else if(mode === "blue"){
+    color = "blue";
+ } else if(mode === "yellow"){
+    color = "yellow";
+ } else if(mode === "grey"){
+    color = "grey";
+ } else { 
+    console.log("No match found");
+ }
+  console.log(color);
+ 
+
+
+let birthYear = 1978;
+
+birthYear>=1978 ? console.log("Eligible for govt beneficiary") : console.log("Not eligible for govt beneficiary");
+ 
+
+
+  
 
 
 
