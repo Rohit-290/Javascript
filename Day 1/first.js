@@ -7,6 +7,8 @@ console.log(firstName);
 console.log(age);
 console.log(fullPrice);
 
+// -----x--------------------------------x----------------------------------x---------------------------------------x--------------------------x
+
 {
      let fullName = "Donald Duck";
      console.log(fullName);
