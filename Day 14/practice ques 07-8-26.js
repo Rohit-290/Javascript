@@ -9,3 +9,10 @@ para.onclick = (e) => {
     console.log(e);
     console.log(e.type);
 }
+
+let btn = document.querySelector("button");
+btn.onclick = (e) => {
+    console.log("My name is Son");
+//     console.log(e);
+//     console.log(e.type);
+}
