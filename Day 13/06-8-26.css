@@ -1,0 +1,28 @@
+#one{
+    background-color: cyan;
+}
+
+.two{
+    height: 100px;
+    width: 100px;
+    border: 4px solid black;
+    background-color: tomato; 
+    color: black;
+}
+
+.three{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content{
+    background-color: green;
+    color: red;
+}
+
+
+.ncontent{
+    background-color: rgb(226, 206, 33);   
+}
