@@ -8,10 +8,10 @@
 body{
     background-color: #0F3040;
     color: #D99B7F;
-    background-image: url(i3.png);
-    background-repeat: repeat;
+    background-image: url(i4.png);
+    background-repeat: no-repeat;
     background-size: cover;
- font-family: "Cursive";
+    font-family: "Cursive";
 }
 
 body h1{
