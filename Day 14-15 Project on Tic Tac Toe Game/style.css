@@ -6,14 +6,20 @@
 }
 
 body{
-    background-color: #1D4533;
-    color: #F9D2BA;
+    background-color: #0F3040;
+    color: #D99B7F;
+    background-image: url(i3.png);
+    background-repeat: repeat;
+    background-size: cover;
+ font-family: "Cursive";
 }
 
 body h1{
     position: absolute;
-    left: 610px;
-    top: 30px;
+    left: 620px;
+    top: 120px;
+    z-index: 1000;
+    color: #000000;
 }
 
 .beta{
@@ -25,6 +31,7 @@ body h1{
     position: absolute;
     left: 300px;
     top: -60px;
+   
 }
 
 .gamma{
@@ -40,27 +47,58 @@ body h1{
 .one{
     height: 120px;
     width: 120px;
-    background-color: #F7EAE0;
+    font-family: cursive;
+    background-color: #006A67;
     border: none;
     border-radius: 1.2rem;
-    box-shadow: 4px 6px 10px rgba(154,156,81,0.5);
+    box-shadow: 1px 1px 2px rgba(190, 167, 227, 0.5);
     font-size: 2.5rem;
-    color: #39B1D1;
+    color: #A56F63;
 }
 
 .one:hover{
     background-color: rgba(209,0,86,0.75);
 }
 
-.alpha{
+.re-btn{
     height:40px;
     width: 120px;
     border: none;
     border-radius: 0.5rem;
     position: absolute;
     bottom: 140px;
+    left: 330px;
     background-color: black;
     color: aliceblue;
     box-shadow: 1px 1px 1px rgba(236, 236, 233, 0.25);
 }
 
+.sWin{
+    height:30px;
+    width: 370px;
+    color: #000000;
+    position: absolute;
+    left: 570px;
+    top: 150px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Sofia";
+    z-index: 1000;
+}
+
+.hide{
+    visibility: hidden;
+}
+ 
+.new-btn{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 140px;
+    left: 460px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
