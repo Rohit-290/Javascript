@@ -45,7 +45,7 @@ getData(1,()=>{
     getData(2,()=>{
         console.log("Fetching data again...");
         getData(3,()=>{
-            console.log("Fetching data again please wait...");
+            console.log("Fetching data again please wait...");  // callback hell
             getData(4)
 
         })
