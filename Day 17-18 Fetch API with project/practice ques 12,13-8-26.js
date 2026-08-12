@@ -16,19 +16,19 @@ btn.addEventListener("click",getFacts);
 // -----x--------------------------------x----------------------------------x---------------------------------------x--------------------------
 
 
-// const URL = "https://cat-fact-herokuapp.com/facts" ;
-// const factPara = document.querySelector(".para");
-// const btn = document.querySelector(".bn");
+const URL = "https://cat-fact-herokuapp.com/facts" ;
+const factPara = document.querySelector(".para");
+const btn = document.querySelector(".bn");
 
-// function getFacts() {
-//    console.log("getting data...");
-//    fetch(URL)
-//    .then((response)=>{
-//     return response.json();
-//    })
-//     .then((data)=>{
-//     factPara.innerText = data[0].text;
-//   })
-// }
+function getFacts() {
+   console.log("getting data...");
+   fetch(URL)
+   .then((response)=>{
+    return response.json();
+   })
+    .then((data)=>{
+    factPara.innerText = data[0].text;
+  })
+}
 
-// btn.addEventListener("click",getFacts);
+btn.addEventListener("click",getFacts);
