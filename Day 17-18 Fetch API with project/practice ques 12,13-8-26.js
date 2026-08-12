@@ -1,4 +1,4 @@
-const URL = 
+const URL = "";
 const factPara = document.querySelector(".para");
 const btn = document.querySelector(".bn");
 
