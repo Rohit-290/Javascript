@@ -1,9 +1,8 @@
-const base_URL = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies" ;
-
+const base_URL = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies";
 const nations = document.querySelectorAll(".nat select");
 const btn = document.querySelector("button");
-const fromCurr = document.querySelector(".from1");
-const toCurr = document.querySelector(".to1");
+const fromCurr = document.querySelector('select[name="from"]');
+const toCurr = document.querySelector('select[name="to"]');
 
 for(let select of nations){
     for(con in countryList){
@@ -31,7 +30,7 @@ const updateFlag = (element) =>{
 }
 
 btn.addEventListener("click", async (e) =>{
-    let amount = document.querySelector(".cur-1");
+    let amount = document.querySelector(".cur-1 input");
     let amtVal = amount.value;
     if(amtVal === "" || amtVal<1){
         amtVal = 1;
@@ -41,8 +40,6 @@ btn.addEventListener("click", async (e) =>{
     const URL = `${base_URL}/${fromCurr.value.toLowerCase()}.json`;
     let response = await fetch(URL);
     let data = await response.json();
-    let rate = data[fromCurr.value.toLowerCase];
-
+    let rate = data[fromCurr.value.toLowerCase()];
     let finalAmount = amtVal * rate ;
-    toCurr.innerText = `${finalAmount}`;
 });
